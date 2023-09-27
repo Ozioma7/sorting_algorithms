@@ -22,7 +22,7 @@ void swap_ints(int *a, int *b)
 
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, lenght = size
+	size_t i, lenght = size;
 	bool boolean = false;
 
 	if (array == NULL || size <= 1)
